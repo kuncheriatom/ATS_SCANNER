@@ -51,23 +51,19 @@ The ATS Score Generation project aims to revolutionize the recruitment process b
    pip install -r requirements.txt
    ```
 
-3. Download and prepare the datasets as described in the [Dataset](#dataset) section.
+3. Run the Application
 
-4. Run the preprocessing scripts:
-   ```bash
-   python preprocess.py
-   ```
+To start the Streamlit application, run the following command:
 
-5. Train the models:
-   ```bash
-   python train_model.py --model bigru
-   python train_model.py --model bilstm
-   ```
+```bash
+streamlit run app.py
+```
 
-6. Deploy the model:
-   ```bash
-   python deploy.py
-   ```
+
+4. Access the Application
+
+Open your web browser and go to `http://localhost:8501` to access the application.
+
 
 ## Usage
 
