@@ -51,10 +51,20 @@ The ATS Score Generation project aims to revolutionize the recruitment process b
    pip install -r requirements.txt
    ```
 
-3. Run the model:
-     ```bash
-   streamlit run app.py
-   ```
+3. Run the Application
+
+To start the Streamlit application, run the following command:
+
+```bash
+streamlit run app.py
+```
+
+
+4. Access the Application
+
+Open your web browser and go to `http://localhost:8501` to access the application.
+
+
 
 
 ## Usage
